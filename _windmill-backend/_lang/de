@@ -251,6 +251,7 @@ be_start_main_text=Willkommen im Backend-Dashboard des Moduls "_windmill-backend
 be_str_descr=Beschreibung
 be_str_descrmfn=Modulname
 be_edit=Editieren
+be_edit_abort=Vorgang abbrechen
 be_api=API-Token
 be_api_token_add=API-Token hinzufügen
 be_str_incoming=Eingehend

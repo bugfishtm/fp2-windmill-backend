@@ -33,7 +33,7 @@
 	
 	if(!defined("_INT_SHOW_ACCESS_")) {
 		$found = false;
-		if(is_numeric($_GET["id"])) {
+		if(is_numeric(@$_GET["id"])) {
 			$x = $object["user"]->get(@$_GET["id"]);
 			if(is_array($x)) { $found = true; }
 		} else {
