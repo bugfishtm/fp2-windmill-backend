@@ -1,0 +1,395 @@
+#		@@@@@@@   @@@  @@@   @@@@@@@@  @@@@@@@@  @@@   @@@@@@   @@@  @@@  
+#		@@@@@@@@  @@@  @@@  @@@@@@@@@  @@@@@@@@  @@@  @@@@@@@   @@@  @@@  
+#		@@!  @@@  @@!  @@@  !@@        @@!       @@!  !@@       @@!  @@@  
+#		!@   @!@  !@!  @!@  !@!        !@!       !@!  !@!       !@!  @!@  
+#		@!@!@!@   @!@  !@!  !@! @!@!@  @!!!:!    !!@  !!@@!!    @!@!@!@!  
+#		!!!@!!!!  !@!  !!!  !!! !!@!!  !!!!!:    !!!   !!@!!!   !!!@!!!!  
+#		!!:  !!!  !!:  !!!  :!!   !!:  !!:       !!:       !:!  !!:  !!!  
+#		:!:  !:!  :!:  !:!  :!:   !::  :!:       :!:      !:!   :!:  !:!  
+#		 :: ::::  ::::: ::   ::: ::::   ::        ::  :::: ::   ::   :::  
+#		:: : ::    : :  :    :: :: :    :        :    :: : :     :   : :  www.bugfish.eu
+#		 _____   ____  _____ ______      ____  __ __  ____       ____   ____   ____    ___ 
+#		|     | /    |/ ___/|      |    |    \|  |  ||    \     |    \ /    | /    |  /  _]
+#		|   __||  o  (   \_ |      |    |  o  )  |  ||  o  )    |  o  )  o  ||   __| /  [_ 
+#		|  |_  |     |\__  ||_|  |_|    |   _/|  _  ||   _/     |   _/|     ||  |  ||    _]
+#		|   _] |  _  |/  \ |  |  |      |  |  |  |  ||  |       |  |  |  _  ||  |_ ||   [_ 
+#		|  |   |  |  |\    |  |  |      |  |  |  |  ||  |       |  |  |  |  ||     ||     |
+#		|__|   |__|__| \___|  |__|      |__|  |__|__||__|       |__|  |__|__||___,_||_____|
+# This is a comment!
+# Here you can enter translations for DE (German) like below!
+# New Translation options should be applied to this sites config.php _HIVE_LANG_ARRAY_
+# This files are public visible! You can use Database Mode if you want your translations hidden.
+
+
+##################################################################
+## Login Pages Related (Generic)
+##################################################################
+hive_login_lost=Lost Password?
+hive_login_login=Login
+hive_login_rememberlogin=Remember Me (Cookies)
+hive_login_password=Password
+hive_login_userph=***************
+hive_login_recoverph=***************
+hive_login_user=User Mail
+hive_login_title=Login
+hive_login_msg_disabled=Your user account has been disabled!
+hive_login_msg_csrf=Form is expired (csrf error), please try again!
+hive_login_msg_blocked=Your user account has been blocked!
+hive_login_msg_blockedpwf=You have entered the wrong password to many times and your user account has been blocked!
+hive_login_msg_inactive=Your user account is not yet activated! Recover your password to activate your user account.
+hive_login_msg_ok=You are now authenticated!
+hive_login_msg_wrong=Wrong user/password combination!
+hive_login_msg_empty=You need to provide missing data to the form, you left some input fields empty which is not allowed!
+hive_login_msg_banned=Your IP is currently blocked out of this website. If this error persists please contact support.
+hive_login_back=Back to Login
+hive_login_user_recover=Recover Password
+hive_login_user_pwchange=Set Password
+hive_login_user_pwinp=Password
+hive_login_user_pwinp1=Confirm Password
+hive_login_user_pwrectitle=Set Account Password
+hive_login_msg_pwtexpire=This Password-Recover Token is expired! Please retry to recover your account.
+hive_login_msg_pwnomatch=Confirmation password does not match!
+hive_login_msg_unk=Unkown Error at Login/Request Backend
+hive_login_msg_pwcok=You have successfully changed and activated your account password!
+hive_login_msg_pwrecno=Your password does not match the requirements.
+hive_login_msg_recnok=Please check your inbox for a password reset mail, this mail contains a link to recover your password.
+hive_login_msg_recnewunk=This user id is not known!
+hive_login_msg_recnope=Your account does not have permission to recover the password!
+hive_login_msg_recnopede=Your account has been deactivated and can not do new requests!
+hive_login_msg_recwait=You need to wait a few minutes before you start a new Recover request: 
+hive_login_msg_min=minutes
+hive_login_msg_m_res=The mail you tried to activate is now used on another account, so it cannot be related to your account!
+hive_login_msg_m_block=Your account is blocked for mail changes!
+hive_login_msg_m_exp=Mail Activation code expired! Please retry to change your mail in the profile setup!
+hive_login_msg_m_er=Error activating your new Mail!
+hive_login_msg_m_thead=E-Mail Activation
+hive_login_msg_a_thead=Account Activation
+hive_login_msg_m_getback=Click here to go back to the website!
+hive_login_msg_m_ok=You have successfully activated your new mail!
+hive_login_msg_a_noadr=The request has been failed, please try again later!
+hive_login_msg_a_ok=You have successfully activated your account!
+hive_login_msg_a_er=The related user has not been found to be activated!
+hive_login_msg_a_exp=The activation token is invalid. Please recover your account at the login to activate your account!
+hive_login_msg_a_block=The activation for your account has been disabled, please try again later!
+hive_login_msg_notposlogin=This action is not possible while you are already logged in!
+hive_login_msg_m_noadr=The request has been failed. Please try again later.
+
+##################################################################
+## Setup Variable Explanations
+##################################################################
+be_var_phpmod=Array with required PHP Modules to be required to enter website! (otherwhise warning will be displayed)
+be_var_url_seo=Activate SEO Friendly URLs? This only works if the webpage where this variable is set is supporting this functionality.
+be_var_url=Array with Get Variable URL Keys to be used for site locations
+##################################################################
+be_var_theme1=Default Theme to use if no other theme is determineable
+be_var_theme2=Theme array with valid available themes to be used
+be_var_theme3=Default Theme Color if you are using _HIVE_COLOR_ Variable to setup dynamic Theme Colors
+##################################################################
+be_var_site_1=The websites Title to be displayed on various locations!
+be_var_site_2=The websites Title Space for Tabs and more , for seperation of title elements!
+##################################################################
+be_var_smtp_1=Default Sender Mail Adress for outgoing E-Mails
+be_var_smtp_2=Default Sender Mail Name for outgoing E-Mails
+be_var_smtp_3=All Mails sended as HTML? (1 - Yes/0 - No)
+be_var_smtp_4=Mail Debug Mode (0, 1, 2, 3). This will output mail connection debugging informations on the website where the mail operation has been executed on. Use with caution as other values as 0 may display login informations to users in an productive environment. Set to 0 for productive environment and to disable debug informations for mail sending operations!
+be_var_smtp_5=Default Header for Mails to be added to mails at the top
+be_var_smtp_6=Default Footer to be added to mails at the bottom
+be_var_smtp_7=Allow insecure SSL on Mail Server Connections? (1 - Yes/0 - No)
+be_var_smtp_8=SMTP Host for Mail Server Connection
+be_var_smtp_9=SMTP Port for Mail Server Connection (587/465/25)
+be_var_smtp_10=SMTP Authentication for Mail Server Connection (ssl/tls/false)
+be_var_smtp_11=SMTP Username for Mail Server Connection
+be_var_smtp_12=SMTP Password for Mail Server Connection
+##################################################################
+be_var_robot=1 - Allow All | 2 - Allow nothing | 0 Do not spawn
+##################################################################
+be_cperm_user=User Management
+be_cperm_user_desc=Can manage, edit and create users!
+be_cperm_logging=Logging Management
+be_cperm_logging_desc=Can manage logging functionalities!
+be_cperm_system=System Management
+be_cperm_system_desc=Can manage system functionalities!
+##################################################################
+b_var_captcha1=Count of Lines in Default Core Captchas
+b_var_captcha2=Count of Squares in Default Core Captchas
+b_var_captcha3=Captcha Height Image in Default Core Captchas
+b_var_captcha4=Captcha Width Image in Default Core Captchas
+b_var_captcha5=If false Default Font will be used in Default Core Captchas
+##################################################################
+b_var_up1=Title for the Updater on this Site
+b_var_up2=Code needed for Update? (access code/can be false)
+##################################################################
+b_var_user1=Maximum Days Sessions/Cookies are Valid
+b_var_user2=Time in Minutes token out of Activation Mails are Valid
+b_var_user3=Block Users after X Fail Logins (can be false)
+b_var_user4=Time in Minutes User has to wait between Requests (anti flood)
+b_var_user5=Log old sessions? (Logins, Recoverys, Activations, Mail Changes) (1/0)
+b_var_user6=Log User IPs in Database (1/0)
+b_var_user7=1 - Remove Recovery Keys after user Succesfully Logged In | 0 - Preserve Keys
+b_var_user8=1 - Allow Multi Login  | 0 - Disable Multi Login (old session logout)
+b_var_user9=Passwordfilter: Min Signs
+b_var_user10=Passwordfilter: Min Capital Signs
+b_var_user11=Passwordfilter: Min Small Signs
+b_var_user12=Passwordfilter: Min Special Signs
+b_var_user13=Passwordfilter: Min Numeric Signs
+##################################################################
+b_var_tmce1=TinyMCE Plugins
+b_var_tmce2=TinyMCE Menu Bar
+b_var_tmce3=TinyMCE Tool Bar
+##################################################################
+b_var_redis1=Redis Activated? 1/0
+b_var_redis2=Redis Host
+b_var_redis3=Redis Port
+##################################################################
+b_var_vmsic1=Log CURL Class Requests? (1/0)
+b_var_vmsic2=Block IPs after X Failures
+b_var_vmsic3=Log Referers? (1/0)
+b_var_vmsic4=Default CSRF Code Valid Time in Seconds
+b_var_vmsic5=1 - Only Cronjob Execution from Command Line | 0 - Allow Cronjob Execution in Browser
+##################################################################
+b_var_sitecn1=URL where this page is visible
+b_var_sitecn2=Show PHP Errors on website? (1/0)
+b_var_sitecn3=Debug Action for JS Errors Active? (1/0)
+b_var_sitecn4=Stop and Show MySQL Errors on Page if Happening? (Will always be logged in x_log_mysql table!) 1/0
+##################################################################
+be_var_lang1=Default Language to use upon entering the website the first time!
+be_var_lang2=Array with valid available languages able to be used on this related website
+be_var_lang3=0 - Use language Files | 1 - Use Database Language 
+##################################################################
+be_var_refexc_1=Refer to this path if you want to use special User Activation page for Site Mode
+be_var_refexc_2=Refer to this path if you want to use special Recover Execution page for Site Mode
+be_var_refexc_3=Refer to this path if you want to use special Mail Activation page for Site Mode
+be_var_refexcd_1=Disable the general User Activation page? (0/1)
+be_var_refexcd_2=Disable the general Recover Activation page? (0/1)
+be_var_refexcd_3=Disable the general Mail Activation page? (0/1)
+
+##################################################################
+## Theme and Backend Related
+##################################################################
+be_about_core_info=Core Version Information
+be_about_site_info=Backend Module Information
+be_about_fw_info=Framework Version Information
+be_yes=Yes
+be_about=About
+be_profile=Profile
+be_system=System
+be_switch=Switch to Frontend
+be_logout=Logout
+be_no=No
+be_cancel=Cancel
+be_cbanner_1=This website is using session cookies!
+be_cbanner_2=I Agree
+be_mysql=MySQL
+be_curl=Curl
+be_visits=Visits
+be_blacklist=Blacklist
+be_referer=Referer
+be_benchmark=Benchmark
+be_javascript=Javascript
+be_mail=Mailing
+be_logging=Logging
+be_cron=Cronjob
+g_themetesu=The theme has been changed!
+g_themela=The language has been changed!
+be_opok=You are seeing this site because you have requested an activation.<br/>See the event box on the top right corner for details.
+be_operr=Error#
+be_logged_out=You have been logged out!
+be_login=Login
+be_recover=Recover Account
+be_login_activate=Activate Account
+be_activate_mail=Activate Mail
+be_login_switch=Back to Frontend
+be_close=Close
+be_list_starthead=Listing
+be_limit_before=Limit: 
+be_list_h_module=Module:
+be_list_h_date=Date
+be_list_h_ttype=Type
+be_list_h_ttoken=Token
+be_list_h_ref=Reference
+be_list_h_detail=Details
+be_list_h_req=Requests
+be_list_h_sw=Switches
+be_list_exec_idel=The item has been deleted!
+be_list_h_ar=Arrivals
+be_list_h_url=URL
+be_list_h_site=Site
+be_list_h_err=Error
+be_list_h_rece=Receiver
+be_list_h_content=Content
+be_list_h_time=Time
+be_list_h_mem=Memory
+be_list_h_cpu=CPU
+be_list_h_query=Queries
+be_list_h_hits=Hits
+be_list_h_mode=Module
+be_list_h_ip=IP
+be_list_h_fails=Failures
+be_list_h_delete=Delete
+be_list_h_exec_flush=All items on this table have been deleted!
+be_list_h_btn_flush_rly=Do you really want to flush this table? This will reinitialize this related database table and delete all old entries in it!
+be_list_h_btn_flush=Flush Table
+be_list_h_btn_less=Show Less
+be_list_h_btn_more=Show More
+be_list_h_btn_chm=Change Module
+be_list_h_exec_chmg=Active Module has been changed!
+b_const_value=Constant Value
+b_const_name=Constant Name
+b_edit=Edit
+b_action=Action
+b_delete=Delete
+b_description=Description
+b_constant_set=Constant Settings
+b_var_site_const_edit=Edit Constant
+be_list_exec_iedit=The Item has been changed!
+be_constants=Constants
+be_start=Dashboard
+be_start_bframe=Powered by "Bugfish Framework"
+be_start_fp2frame=Support us by including our "fast-php-page" banner!
+be_start_dash_heading=Introduction
+be_start_main_text=Welcome to the backend dashboard of the "_windmill-backend" module! This powerful tool has been meticulously crafted to cater to the needs of administrators and developers, offering a seamless experience in debugging, maintaining, and developing their own site modules.<br /><br />Designed to operate alongside other modules within your site, "_windmill-backend" provides quick access via /_core/tools/admin_switch.php, allowing effortless navigation between front and backend pages. Should you find yourself unable to see navigation items, it may indicate a lack of permission to access certain areas. Remember, access to administrative areas requires appropriate permissions.<br /><br />If you've stumbled upon this page inadvertently as a frontend user, fear not. Simply execute /_core/tools/admin_switch.php to return to the frontend interface.<br /><br />Within this dashboard, users have the convenience of updating their password and email address, ensuring security and personalized functionality.<br /><br />For developers, "_windmill-backend" offers a versatile foundation that can be copied into their own modules, facilitating customization and adaptation to specific project requirements.<br /><br />Navigate with ease, manage with confidence, and develop with flexibility - welcome to the backbone of your site's administrative functionality.	
+be_str_descr=Description
+be_str_descrmfn=Module Name
+be_edit_abort=Click here to abort the operation!
+be_api=API Token
+be_api_token_add=Add API Token
+be_str_incoming=Incoming
+be_str_outgoing=Outgoing
+be_str_item_created=The item has been created!
+be_str_item_createderr=API Token could not be created, this is mostly the case if this token is already existing for the related site module!
+be_mail_template_name=Template Identifier
+be_mail_template_subject=Template Subject
+be_mail_template_content=Template Content
+be_mail_template_description=Template Description
+be_mail_template_raw=Mail Templates
+be_templates=Mail Templates
+be_mail_template_add=Add Mail Template
+be_user=Users
+be_mail_template_edit=Edit Mail Template
+be_mail_exp_recover=Email template for recovering registered users. This template is sent when users request a new password through the 'forgot password' function. An substitution is set to provide the user with a link. With easy Subsitution _ACTION_URL_.
+be_mail_exp_mchange=Email template for changes in registered user emails. This template is sent when the user changes their primary email or when it is changed in general. An substitution is set to provide the user with a link to activate and confirm the new mail. With easy Subsitution _ACTION_URL_ for the activation URL.
+be_mail_exp_acti=Email template for activating registered users. This template is sent when users or company employees are created. An substitution is set to provide the user with a link. With easy Subsitution _ACTION_URL_ to activate the new account. The user can also recover the password to activate the account.
+be_mailt_name=Template Name
+be_mailt_err=Template could not be created, the name already exists!
+be_mailt_edit=Template has been changed!
+be_sessions=Sessions
+be_session=Sessions
+be_se_key_act=Activation Key
+be_se_key_ses=Session Key
+be_se_key_rec=Recover Key
+be_se_key_mch=Mail Activate Key
+be_se_key_h1=Date
+be_se_key_h2=UID
+be_se_key_h3=Key Type
+be_se_key_h4=Status
+be_se_gr_id1=GID
+be_se_gr_id2=Name
+be_se_gr_id3=Description
+be_se_gr_hti=User Group
+be_se_gr_add=Add Group
+be_group=Groups
+be_group_egroup=Edit Group
+b_permission=Permissions
+b_active=Active
+b_inactive=Inactive
+b_g_nomember=The group has no members!
+b_g_noexist=The group you try to view does not exist!
+b_g_delete=Delete Group
+b_g_memerlisth=Member List
+b_g_memerlisth1=UID
+b_g_memerlisth2=Mail
+be_list_g_flush=Delete this group?
+be_list_g_flush_rly=Do you really want to delete this group? The group cannot be recovered. Relations to users and permissions will be deleted as well.
+be_list=List
+be_user_area_name=User Management
+be_user_area_mail=Details
+be_user_area_create=Add User
+be_usrl_blocked=Blocked
+be_usrl_confirmed=Confirmed
+be_usrl_active=Deactivated
+be_usr_ad_hmail=Mail
+be_usr_ad_herem=You need to fill in needed data!
+be_usr_ad_errgm=The user has been created, but there was an error while trying to send the activation mail!
+be_noti_user_crea=Please be advised, that if a user has not confirmed his account and another user trys to sign up with the same mail - the initial unconfirmed user may gets deleted. This can lead to data loss. So be sure you are always working with confirmed users if you do not want the system to delete them. Do never use functionalities to unconfirm users, as this also can lead to data loss.
+be_usr_ad_errg=Error while trying to create the user.
+be_usr_ad_hpasserem=The choosen password does not fit the recommendations!
+be_usr_ad_hmailex=Another user with that mail already exists! Please choose another mail for this user.
+be_usr_ad_hmaok=The user has been created!
+be_usr_ad_hpass=Password
+be_usr_ad_h=Activation Procedure
+be_usr_ad_rec=Request mail activation and user to set own password
+be_usr_ad_act=Request only activation per Mail
+be_usr_ad_ok=Activate this user without any activation procedures
+be_404_2=Error 404
+be_404_1=The requested content does not exist!
+be_401_2=Access Denied
+be_401_1=You do not have access to this area!
+be_puser_noview=This user does not exist!
+be_puser_cpass=Change Password
+be_puser_cpass1=Confirm Password
+be_puser_cpass2=New Password
+be_puser_cga=Change Groups
+be_puser_cper=Change Permissions
+be_puser_data=User Table Data
+be_puser_data1=Field Name
+be_puser_data2=Field Value
+be_puser_chmm=Change User Mail
+be_puser_chmm1=New Mail
+be_puser_chdele=Delete User
+be_puser_chdele1=User Operations
+be_puser_chdele2=Block User
+be_puser_chdele3=Unblock User
+be_puser_chdele4=Confirm User
+be_puser_chdele5=Disable User
+be_puser_chdele6=Enable User
+be_puser_chdele7=This user is currently not confirmed by mail!
+be_puser_chdele8=This user is currently blocked!
+be_puser_chdele9=This user is currently disabled!
+be_puser_chdele10=This is the initial super-admin account! It always has full access to this admin panel!
+be_puser_chdele11=This profile does belong to another user as you! Be careful when changing settings, as changes will have impact on the users experience!
+be_puser_chdele12=Awaiting new mail activation for:
+be_puser_chdele13=Click here to abort the operation.
+be_puser_chdele14=The Mail can't be empty!
+be_puser_chdele15=Unknown Error
+be_puser_chdele16= The functionality to change the mail is currently disabled for this user!
+be_puser_chdele17=It is not allowed to change this users mail.
+be_puser_chdele18=There is already an active user with that mail! Duplicate mails on users are not possible.
+be_puser_chdele19=You need to wait a specific amount of time between mail change requests: 
+be_puser_chdele20=minutes
+be_puser_chdele21=Please check your new mails inbox to activate new mail!
+be_puser_chdele22=There was an error sending the activation email!
+be_puser_chdele23=The Mail Change request has been cancelled!
+be_op_usr_1=Password does need one integer, one small and one capital letter! At least you need to have 10 signs.
+be_op_usr_2=Passwords cant be empty!
+be_op_usr_3=Passwords do not match!
+be_op_usr_4=The password has been changed!
+be_op_usr_5=The user groups has been changed!
+be_op_usr_6=The user permissions has been changed!
+be_op_usr_7=The user has been blocked!
+be_op_usr_8=The user block has been released!
+be_op_usr_9=The user has been disabled!
+be_op_usr_10=The user has been enabled!
+be_op_usr_11=The user has been confirmed and is now able to login!
+be_op_usr_12=The user has been deleted!
+
+##################################################################
+## Area Explanations
+##################################################################
+be_exp_blacklist=Effectively manage and monitor IP blacklists to ensure enhanced security and control over unauthorized access in this dedicated section.
+be_exp_benchmark=Access the benchmark page to gauge and analyze performance metrics, empowering informed decision-making for your website's optimization.
+be_exp_visits=Track and analyze website visits with comprehensive data and insights in this dedicated section, empowering you to understand user behavior and optimize site performance.
+be_exp_referer=Analyze and track referral sources with detailed referer log entries in this dedicated section, enhancing your website's insights into visitor origins and interactions.
+be_exp_mysql=Access and analyze MySQL logging data in this dedicated section to gain detailed insights into database activities, ensuring efficient monitoring and management of your website's MySQL operations.
+be_exp_mail=Review and manage mail log entries for your website's communication activities in this dedicated section.
+be_exp_logging=Explore the comprehensive logging area to review and monitor detailed activity and performance logs for your website.
+be_exp_javascript=Monitor and troubleshoot JavaScript errors effectively with detailed logging available in this dedicated section, empowering you to maintain a smooth and error-free website experience for users.
+be_exp_curl=Gain detailed insights into Curl logging activities on your website with comprehensive logs and data available in this dedicated section, enabling efficient monitoring and analysis.
+be_exp_cron=Get informations about the last cronjob executions and the detailed output of what has been done.
+be_exp_about=Discover the Current Website and Backend Versions - Unveiling the technological core of our platform. Explore detailed version information for both the website and backend, showcasing our commitment to the latest advancements in technology. Here you can see some informations about the current used site module and the core module!
+be_exp_constant=Streamline constants administration effortlessly. Organize, modify, and oversee site module constants with ease, ensuring optimal access control and efficient collaboration within your platform.
+be_exp_start=Choose an item of the navigation bar to get into a specific administrator area! This is the default start page, where all users will be refered to if they log in! You need specific permissions to access the different areas. The initial created user of this interface is a 'superadmin' user, which does not need specific rights assigned to enter all areas and execute operations. If you are missing content, get in touch with your hoster or developer/management to ask for specific permissions or features.
+be_exp_apitoken=Streamline Token administration effortlessly. Organize, modify, and oversee Tokens with ease, ensuring optimal access control and efficient collaboration within your platform.
+be_exp_mailtempl=Streamline Mail Template administration effortlessly. Organize, modify, and oversee Mail Templates with ease, ensuring optimal access control and efficient collaboration within your platform.
+be_exp_usr_se=Explore the listing of user sessions to gain a comprehensive overview of active sessions, enabling efficient monitoring and management of user interactions on your website.
+be_exp_grp_l=Streamline group administration effortlessly. Organize, modify, and oversee user groups with ease, ensuring optimal access control and efficient collaboration within your platform.
+be_exp_usrlst=Streamline users administration effortlessly. Organize, modify, and oversee users with ease, ensuring optimal access control and efficient collaboration within your platform.

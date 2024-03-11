@@ -1,0 +1,395 @@
+#		@@@@@@@   @@@  @@@   @@@@@@@@  @@@@@@@@  @@@   @@@@@@   @@@  @@@  
+#		@@@@@@@@  @@@  @@@  @@@@@@@@@  @@@@@@@@  @@@  @@@@@@@   @@@  @@@  
+#		@@!  @@@  @@!  @@@  !@@        @@!       @@!  !@@       @@!  @@@  
+#		!@   @!@  !@!  @!@  !@!        !@!       !@!  !@!       !@!  @!@  
+#		@!@!@!@   @!@  !@!  !@! @!@!@  @!!!:!    !!@  !!@@!!    @!@!@!@!  
+#		!!!@!!!!  !@!  !!!  !!! !!@!!  !!!!!:    !!!   !!@!!!   !!!@!!!!  
+#		!!:  !!!  !!:  !!!  :!!   !!:  !!:       !!:       !:!  !!:  !!!  
+#		:!:  !:!  :!:  !:!  :!:   !::  :!:       :!:      !:!   :!:  !:!  
+#		 :: ::::  ::::: ::   ::: ::::   ::        ::  :::: ::   ::   :::  
+#		:: : ::    : :  :    :: :: :    :        :    :: : :     :   : :  www.bugfish.eu
+#		 _____   ____  _____ ______      ____  __ __  ____       ____   ____   ____    ___ 
+#		|     | /    |/ ___/|      |    |    \|  |  ||    \     |    \ /    | /    |  /  _]
+#		|   __||  o  (   \_ |      |    |  o  )  |  ||  o  )    |  o  )  o  ||   __| /  [_ 
+#		|  |_  |     |\__  ||_|  |_|    |   _/|  _  ||   _/     |   _/|     ||  |  ||    _]
+#		|   _] |  _  |/  \ |  |  |      |  |  |  |  ||  |       |  |  |  _  ||  |_ ||   [_ 
+#		|  |   |  |  |\    |  |  |      |  |  |  |  ||  |       |  |  |  |  ||     ||     |
+#		|__|   |__|__| \___|  |__|      |__|  |__|__||__|       |__|  |__|__||___,_||_____|
+# This is a comment!
+# Here you can enter translations for DE (German) like below!
+# New Translation options should be applied to this sites config.php _HIVE_LANG_ARRAY_
+# This files are public visible! You can use Database Mode if you want your translations hidden.
+
+
+##################################################################
+## Login Pages Related (Generic)
+##################################################################
+hive_login_lost=Passwort vergessen?
+hive_login_login=Anmelden
+hive_login_rememberlogin=Angemeldet bleiben (Cookies)
+hive_login_password=Passwort
+hive_login_userph=***************
+hive_login_recoverph=***************
+hive_login_user=Benutzer E-Mail
+hive_login_title=Anmeldung
+hive_login_msg_disabled=Ihr Benutzerkonto wurde deaktiviert!
+hive_login_msg_csrf=Das Formular ist abgelaufen (CSRF-Fehler), bitte versuchen Sie es erneut!
+hive_login_msg_blocked=Ihr Benutzerkonto wurde blockiert!
+hive_login_msg_blockedpwf=Sie haben zu oft das falsche Passwort eingegeben und Ihr Benutzerkonto wurde blockiert!
+hive_login_msg_inactive=Ihr Benutzerkonto ist noch nicht aktiviert! Stellen Sie Ihr Passwort wieder her, um Ihr Benutzerkonto zu aktivieren.
+hive_login_msg_ok=Sie sind jetzt angemeldet!
+hive_login_msg_wrong=Falsche Benutzername/Passwort-Kombination!
+hive_login_msg_empty=Sie müssen fehlende Daten im Formular angeben, Sie haben einige Eingabefelder leer gelassen, was nicht erlaubt ist!
+hive_login_msg_banned=Ihre IP-Adresse ist derzeit von dieser Website ausgesperrt. Wenn dieser Fehler weiterhin besteht, wenden Sie sich bitte an den Support.
+hive_login_back=Zurück zur Anmeldung
+hive_login_user_recover=Passwort wiederherstellen
+hive_login_user_pwchange=Passwort setzen
+hive_login_user_pwinp=Passwort
+hive_login_user_pwinp1=Passwort bestätigen
+hive_login_user_pwrectitle=Benutzerkonto-Passwort setzen
+hive_login_msg_pwtexpire=Dieses Passwort-Wiederherstellungstoken ist abgelaufen! Bitte versuchen Sie erneut, Ihr Konto wiederherzustellen.
+hive_login_msg_pwnomatch=Passwortbestätigung stimmt nicht überein!
+hive_login_msg_unk=Unbekannter Fehler bei der Anmeldung/Anforderung an das Backend
+hive_login_msg_pwcok=Sie haben Ihr Kontopasswort erfolgreich geändert und aktiviert!
+hive_login_msg_pwrecno=Ihr Passwort entspricht nicht den Anforderungen.
+hive_login_msg_recnok=Bitte überprüfen Sie Ihr Postfach auf eine E-Mail zur Zurücksetzung des Passworts. Diese E-Mail enthält einen Link zum Wiederherstellen Ihres Passworts.
+hive_login_msg_recnewunk=Diese Benutzer-ID ist unbekannt!
+hive_login_msg_recnope=Ihr Konto hat keine Berechtigung zum Zurücksetzen des Passworts!
+hive_login_msg_recnopede=Ihr Konto wurde deaktiviert und kann keine neuen Anfragen mehr stellen!
+hive_login_msg_recwait=Sie müssen einige Minuten warten, bevor Sie eine neue Wiederherstellungsanforderung starten:
+hive_login_msg_min=Minuten
+hive_login_msg_m_res=Die E-Mail, die Sie aktivieren wollten, wird jetzt bereits von einem anderen Konto verwendet, sodass sie nicht mit Ihrem Konto in Verbindung gebracht werden kann!
+hive_login_msg_m_block=Ihr Konto ist für Mail-Änderungen gesperrt!
+hive_login_msg_m_exp=Der Aktivierungscode für die E-Mail ist abgelaufen! Bitte versuchen Sie erneut, Ihre E-Mail in den Profil-Einstellungen zu ändern!
+hive_login_msg_m_er=Fehler beim Aktivieren Ihrer neuen E-Mail!
+hive_login_msg_m_thead=E-Mail-Aktivierung
+hive_login_msg_a_thead=Kontoaktivierung
+hive_login_msg_m_getback=Klicken Sie hier, um zur Website zurückzukehren!
+hive_login_msg_m_ok=Sie haben Ihre neue E-Mail erfolgreich aktiviert!
+hive_login_msg_a_noadr=Die Anfrage ist fehlgeschlagen, bitte versuchen Sie es später erneut!
+hive_login_msg_a_ok=Sie haben Ihr Konto erfolgreich aktiviert!
+hive_login_msg_a_er=Der zugehörige Benutzer wurde nicht aktiviert gefunden!
+hive_login_msg_a_exp=Das Aktivierungstoken ist ungültig. Bitte stellen Sie Ihr Konto beim Login wieder her, um Ihr Konto zu aktivieren!
+hive_login_msg_a_block=Die Aktivierung für Ihr Konto wurde deaktiviert, bitte versuchen Sie es später erneut!
+hive_login_msg_notposlogin=Diese Aktion ist nicht möglich, während Sie bereits angemeldet sind!
+hive_login_msg_m_noadr=Die Anfrage ist fehlgeschlagen. Bitte versuchen Sie es später erneut.
+
+##################################################################
+## Setup Variable Explanations
+##################################################################
+be_var_phpmod=Array mit erforderlichen PHP-Modulen, um die Website zu betreten! (Andernfalls wird eine Warnung angezeigt)
+be_var_url_seo=SEO-freundliche URLs aktivieren? Dies funktioniert nur, wenn die Webseite, auf der diese Variable gesetzt ist, diese Funktionalität unterstützt.
+be_var_url=Array mit Get-Variablen-URL-Schlüsseln, die für Standortangaben verwendet werden sollen
+##################################################################
+be_var_theme1=Standard-Design zu verwenden, wenn kein anderes Design bestimmbar ist
+be_var_theme2=Design-Array mit gültigen verfügbaren Designs, die verwendet werden sollen
+be_var_theme3=Standard-Designfarbe, wenn Sie die Variable _HIVE_COLOR_ verwenden, um dynamische Designfarben einzurichten
+##################################################################
+be_var_site_1=Der Titel der Website, der an verschiedenen Stellen angezeigt werden soll!
+be_var_site_2=Der Titel der Website Platz für Tabs und mehr, zur Trennung von Titel-Elementen!
+##################################################################
+be_var_smtp_1=Standard-Sender-E-Mail-Adresse für ausgehende E-Mails
+be_var_smtp_2=Standard-Sender-E-Mail-Name für ausgehende E-Mails
+be_var_smtp_3=Alle E-Mails als HTML senden? (1 - Ja/0 - Nein)
+be_var_smtp_4=E-Mail-Debug-Modus (0, 1, 2, 3). Dies gibt beim Website, wo die E-Mail-Operation ausgeführt wurde, Mailverbindungs-Debugging-Informationen aus. Verwenden Sie mit Vorsicht, da andere Werte als 0 Anmeldeinformationen in einer Produktionsumgebung anzeigen können. Für eine produktive Umgebung und zur Deaktivierung von Debug-Informationen für E-Mail-Sendeoperationen auf 0 setzen!
+be_var_smtp_5=Standard-Header für E-Mails, der oben in E-Mails hinzugefügt werden soll
+be_var_smtp_6=Standard-Footer, der unten in E-Mails hinzugefügt werden soll
+be_var_smtp_7=Unsicheres SSL auf Mailserver-Verbindungen zulassen? (1 - Ja/0 - Nein)
+be_var_smtp_8=SMTP-Host für Mailserver-Verbindung
+be_var_smtp_9=SMTP-Port für Mailserver-Verbindung (587/465/25)
+be_var_smtp_10=SMTP-Authentifizierung für Mailserver-Verbindung (ssl/tls/false)
+be_var_smtp_11=SMTP-Benutzername für Mailserver-Verbindung
+be_var_smtp_12=SMTP-Passwort für Mailserver-Verbindung
+##################################################################
+be_var_robot=1 - Alles erlauben | 2 - Nichts erlauben | 0 Nicht generieren
+##################################################################
+be_cperm_user=Benutzerverwaltung
+be_cperm_user_desc=Kann Benutzer verwalten, bearbeiten und erstellen!
+be_cperm_logging=Protokollverwaltung
+be_cperm_logging_desc=Kann Protokollfunktionen verwalten!
+be_cperm_system=Systemverwaltung
+be_cperm_system_desc=Kann Systemfunktionen verwalten!
+##################################################################
+b_var_captcha1=Anzahl der Zeilen in Standard-Kern-Captchas
+b_var_captcha2=Anzahl der Quadrate in Standard-Kern-Captchas
+b_var_captcha3=Höhe des Captcha-Bildes in Standard-Kern-Captchas
+b_var_captcha4=Breite des Captcha-Bildes in Standard-Kern-Captchas
+b_var_captcha5=Wenn falsch, wird die Standard-Schriftart in Standard-Kern-Captchas verwendet
+##################################################################
+b_var_up1=Titel für den Updater auf dieser Seite
+b_var_up2=Code für Update erforderlich? (Zugangscode/kann falsch sein)
+##################################################################
+b_var_user1=Maximale Tage, an denen Sitzungen/Cookies gültig sind
+b_var_user2=Zeit in Minuten, in der Token für Aktivierungs-E-Mails gültig sind
+b_var_user3=Benutzer nach X fehlgeschlagenen Anmeldungen blockieren (kann falsch sein)
+b_var_user4=Zeit in Minuten, die ein Benutzer zwischen Anfragen warten muss (Anti-Flood)
+b_var_user5=Alte Sitzungen protokollieren? (Anmeldungen, Wiederherstellungen, Aktivierungen, Mail-Änderungen) (1/0)
+b_var_user6=Benutzer-IPs in Datenbank protokollieren (1/0)
+b_var_user7=1 - Wiederherstellungsschlüssel entfernen, nachdem der Benutzer sich erfolgreich angemeldet hat | 0 - Schlüssel behalten
+b_var_user8=1 - Mehrfachanmeldung erlauben | 0 - Mehrfachanmeldung deaktivieren (alte Sitzung abmelden)
+b_var_user9=Passwortfilter: Mindestzeichen
+b_var_user10=Passwortfilter: Mindestanzahl an Großbuchstaben
+b_var_user11=Passwortfilter: Mindestanzahl an Kleinbuchstaben
+b_var_user12=Passwortfilter: Mindestanzahl an Sonderzeichen
+b_var_user13=Passwortfilter: Mindestanzahl an numerischen Zeichen
+##################################################################
+b_var_tmce1=TinyMCE-Plugins
+b_var_tmce2=TinyMCE-Menüleiste
+b_var_tmce3=TinyMCE-Werkzeugleiste
+##################################################################
+b_var_redis1=Redis aktiviert? 1/0
+b_var_redis2=Redis-Host
+b_var_redis3=Redis-Port
+##################################################################
+b_var_vmsic1=CURL-Klassenanfragen protokollieren? (1/0)
+b_var_vmsic2=IPs nach X Fehlversuchen sperren
+b_var_vmsic3=Referer protokollieren? (1/0)
+b_var_vmsic4=Gültigkeitsdauer des Standard-CSRF-Codes in Sekunden
+b_var_vmsic5=1 - Nur Cronjob-Ausführung von der Befehlszeile | 0 - Cronjob-Ausführung im Browser zulassen
+##################################################################
+b_var_sitecn1=URL, unter der diese Seite sichtbar ist
+b_var_sitecn2=PHP-Fehler auf der Website anzeigen? (1/0)
+b_var_sitecn3=Debug-Aktion für JS-Fehler aktiv? (1/0)
+b_var_sitecn4=Mysql-Fehler stoppen und auf der Seite anzeigen, falls vorhanden? (Wird immer im x_log_mysql-Tabelle protokolliert!) 1/0
+##################################################################
+be_var_lang1=Standard-Sprache beim ersten Betreten der Website!
+be_var_lang2=Array mit gültigen verfügbaren Sprachen, die auf dieser zugehörigen Website verwendet werden können
+be_var_lang3=0 - Sprachdateien verwenden | 1 - Sprache aus der Datenbank verwenden
+##################################################################
+be_var_refexc_1=Verweisen Sie auf diesen Pfad, wenn Sie eine spezielle Benutzeraktivierungsseite für den Seitenmodus verwenden möchten
+be_var_refexc_2=Verweisen Sie auf diesen Pfad, wenn Sie eine spezielle Wiederherstellungs-Ausführungsseite für den Seitenmodus verwenden möchten
+be_var_refexc_3=Verweisen Sie auf diesen Pfad, wenn Sie eine spezielle E-Mail-Aktivierungsseite für den Seitenmodus verwenden möchten
+be_var_refexcd_1=Deaktivieren Sie die allgemeine Benutzeraktivierungsseite? (0/1)
+be_var_refexcd_2=Deaktivieren Sie die allgemeine Wiederherstellungsaktivierungsseite? (0/1)
+be_var_refexcd_3=Deaktivieren Sie die allgemeine E-Mail-Aktivierungsseite? (0/1)
+
+##################################################################
+## Thematische und Backend-bezogene
+##################################################################
+be_about_core_info=Kernversionsinformationen
+be_about_site_info=Informationen zum Backend-Modul
+be_about_fw_info=Framework-Versioneninformationen
+be_yes=Ja
+be_about=Über
+be_profile=Profil
+be_system=System
+be_switch=Zum Frontend wechseln
+be_logout=Abmelden
+be_no=Nein
+be_cancel=Abbrechen
+be_cbanner_1=Diese Website verwendet Session-Cookies!
+be_cbanner_2=Ich stimme zu
+be_mysql=MySQL
+be_curl=Curl
+be_visits=Besuche
+be_blacklist=Blacklist
+be_referer=Referrer
+be_benchmark=Benchmark
+be_javascript=Javascript
+be_mail=E-Mail
+be_logging=Protokollierung
+be_cron=Cronjob
+g_themetesu=Das Theme wurde geändert!
+g_themela=Die Sprache wurde geändert!
+be_opok=Sie sehen diese Seite, weil Sie eine Aktivierung angefordert haben.<br/>Sehen Sie das Ereignisfeld oben rechts für Details.
+be_operr=Fehler#
+be_logged_out=Sie wurden abgemeldet!
+be_login=Anmelden
+be_recover=Benutzerkonto wiederherstellen
+be_login_activate=Konto aktivieren
+be_activate_mail=Aktivierungs-E-Mail
+be_login_switch=Zurück zum Frontend
+be_close=Schließen
+be_list_starthead=Liste
+be_limit_before=Limit: 
+be_list_h_module=Modul:
+be_list_h_date=Datum
+be_list_h_ttype=Typ
+be_list_h_ttoken=Token
+be_list_h_ref=Referenz
+be_list_h_detail=Details
+be_list_h_req=Anfragen
+be_list_h_sw=Wechsel
+be_list_exec_idel=Das Element wurde gelöscht!
+be_list_h_ar=Ankünfte
+be_list_h_url=URL
+be_list_h_site=Website
+be_list_h_err=Fehler
+be_list_h_rece=Empfänger
+be_list_h_content=Inhalt
+be_list_h_time=Zeit
+be_list_h_mem=Speicher
+be_list_h_cpu=CPU
+be_list_h_query=Abfragen
+be_list_h_hits=Hits
+be_list_h_mode=Modul
+be_list_h_ip=IP
+be_list_h_fails=Fehlschläge
+be_list_h_delete=Löschen
+be_list_h_exec_flush=Alle Elemente in dieser Tabelle wurden gelöscht!
+be_list_h_btn_flush_rly=Wollen Sie diese Tabelle wirklich leeren? Dadurch wird diese zugehörige Datenbanktabelle neu initialisiert und alle alten Einträge darin gelöscht!
+be_list_h_btn_flush=Tabelle leeren
+be_list_h_btn_less=Weniger anzeigen
+be_list_h_btn_more=Mehr anzeigen
+be_list_h_btn_chm=Modul ändern
+be_list_h_exec_chmg=Aktives Modul wurde geändert!
+b_const_value=Konstantenwert
+b_const_name=Konstantenname
+b_edit=Bearbeiten
+b_action=Aktion
+b_delete=Löschen
+b_description=Beschreibung
+b_constant_set=Konstanteneinstellungen
+b_var_site_const_edit=Konstante bearbeiten
+be_list_exec_iedit=Das Element wurde geändert!
+be_constants=Konstanten
+be_start=Dashboard
+be_start_bframe=Powered by "Bugfish Framework"
+be_start_fp2frame=Unterstützen Sie uns, indem Sie unser "fast-php-page" Banner einbinden!
+be_start_dash_heading=Einführung
+be_start_main_text=Willkommen im Backend-Dashboard des Moduls "_windmill-backend"! Dieses leistungsstarke Werkzeug wurde sorgfältig entwickelt, um den Bedürfnissen von Administratoren und Entwicklern gerecht zu werden und ein nahtloses Erlebnis beim Debuggen, Warten und Entwickeln ihrer eigenen Seitenmodule zu bieten.<br /><br />Entworfen, um neben anderen Modulen auf Ihrer Website zu arbeiten, bietet "_windmill-backend" schnellen Zugriff über /_core/tools/admin_switch.php und ermöglicht eine mühelose Navigation zwischen Front- und Backend-Seiten. Wenn Sie sich nicht in der Lage fühlen, Navigationspunkte zu sehen, kann dies darauf hinweisen, dass Ihnen möglicherweise die Berechtigung fehlt, auf bestimmte Bereiche zuzugreifen. Denken Sie daran, dass der Zugriff auf administrative Bereiche entsprechende Berechtigungen erfordert.<br /><br />Wenn Sie diese Seite versehentlich als Frontend-Benutzer gefunden haben, keine Angst. Führen Sie einfach /_core/tools/admin_switch.php aus, um zur Frontend-Benutzeroberfläche zurückzukehren.<br /><br />In diesem Dashboard haben Benutzer die Möglichkeit, ihr Passwort und ihre E-Mail-Adresse zu aktualisieren, um Sicherheit und personalisierte Funktionalität zu gewährleisten.<br /><br />Für Entwickler bietet "_windmill-backend" eine vielseitige Grundlage, die in ihre eigenen Module kopiert werden kann, um Anpassungen und Anpassungen an spezifische Projektanforderungen zu erleichtern.<br /><br />Navigieren Sie mühelos, verwalten Sie selbstbewusst und entwickeln Sie flexibel - willkommen im Rückgrat der administrativen Funktionalität Ihrer Website.
+be_str_descr=Beschreibung
+be_str_descrmfn=Modulname
+be_edit=Editieren
+be_api=API-Token
+be_api_token_add=API-Token hinzufügen
+be_str_incoming=Eingehend
+be_str_outgoing=Ausgehend
+be_str_item_created=Das Element wurde erstellt!
+be_str_item_createderr=API-Token konnte nicht erstellt werden, dies ist meistens der Fall, wenn dieses Token bereits für das zugehörige Seitenmodul vorhanden ist!
+be_mail_template_name=Vorlagenbezeichner
+be_mail_template_subject=Betreff der Vorlage
+be_mail_template_content=Vorlageninhalt
+be_mail_template_description=Vorlagenbeschreibung
+be_mail_template_raw=E-Mail-Vorlagen
+be_templates=E-Mail-Vorlagen
+be_mail_template_add=Vorlage hinzufügen
+be_user=Benutzer
+be_mail_template_edit=Vorlage bearbeiten
+be_mail_exp_recover=E-Mail-Vorlage zur Wiederherstellung von registrierten Benutzern. Diese Vorlage wird gesendet, wenn Benutzer ein neues Passwort über die Funktion "Passwort vergessen" anfordern. Eine Substitution ist festgelegt, um dem Benutzer einen Link bereitzustellen. Mit einfacher Substitution _ACTION_URL_.
+be_mail_exp_mchange=E-Mail-Vorlage für Änderungen in den E-Mail-Adressen registrierter Benutzer. Diese Vorlage wird gesendet, wenn der Benutzer seine primäre E-Mail-Adresse ändert oder wenn sie allgemein geändert wird. Eine Substitution ist festgelegt, um dem Benutzer einen Link zur Aktivierung und Bestätigung der neuen E-Mail-Adresse bereitzustellen. Mit einfacher Substitution _ACTION_URL_ für die Aktivierungs-URL.
+be_mail_exp_acti=E-Mail-Vorlage zur Aktivierung registrierter Benutzer. Diese Vorlage wird gesendet, wenn Benutzer oder Unternehmensmitarbeiter erstellt werden. Eine Substitution ist festgelegt, um dem Benutzer einen Link bereitzustellen. Mit einfacher Substitution _ACTION_URL_ zum Aktivieren des neuen Kontos. Der Benutzer kann auch das Passwort wiederherstellen, um das Konto zu aktivieren.
+be_mailt_name=Vorlagenname
+be_mailt_err=Vorlage konnte nicht erstellt werden, der Name existiert bereits!
+be_mailt_edit=Vorlage wurde geändert!
+be_sessions=Sitzungen
+be_session=Sitzungen
+be_se_key_act=Aktivierungsschlüssel
+be_se_key_ses=Sitzungsschlüssel
+be_se_key_rec=Wiederherstellungsschlüssel
+be_se_key_mch=E-Mail-Aktivierungsschlüssel
+be_se_key_h1=Datum
+be_se_key_h2=UID
+be_se_key_h3=Schlüsseltyp
+be_se_key_h4=Status
+be_se_gr_id1=GID
+be_se_gr_id2=Name
+be_se_gr_id3=Beschreibung
+be_se_gr_hti=Benutzergruppe
+be_se_gr_add=Gruppe hinzufügen
+be_group=Gruppen
+be_group_egroup=Gruppe bearbeiten
+b_permission=Berechtigungen
+b_active=Aktiv
+b_inactive=Inaktiv
+b_g_nomember=Die Gruppe hat keine Mitglieder!
+b_g_noexist=Die von Ihnen angezeigte Gruppe existiert nicht!
+b_g_delete=Gruppe löschen
+b_g_memerlisth=Mitgliederliste
+b_g_memerlisth1=UID
+b_g_memerlisth2=Mail
+be_list_g_flush=Diese Gruppe löschen?
+be_list_g_flush_rly=Wollen Sie diese Gruppe wirklich löschen? Die Gruppe kann nicht wiederhergestellt werden. Beziehungen zu Benutzern und Berechtigungen werden ebenfalls gelöscht.
+be_list=Liste
+be_user_area_name=Benutzerverwaltung
+be_user_area_mail=Details
+be_user_area_create=Benutzer hinzufügen
+be_usrl_blocked=Blockiert
+be_usrl_confirmed=Bestätigt
+be_usrl_active=Deaktiviert
+be_usr_ad_hmail=Mail
+be_usr_ad_herem=Sie müssen benötigte Daten ausfüllen!
+be_usr_ad_errgm=Der Benutzer wurde erstellt, aber beim Versuch, die Aktivierungs-E-Mail zu senden, ist ein Fehler aufgetreten!
+be_noti_user_crea=Bitte beachten Sie, dass, wenn ein Benutzer sein Konto nicht bestätigt hat und ein anderer Benutzer versucht, sich mit derselben E-Mail anzumelden, der ursprüngliche unbestätigte Benutzer gelöscht werden kann. Dies kann zu Datenverlust führen. Stellen Sie daher sicher, dass Sie immer mit bestätigten Benutzern arbeiten, wenn Sie nicht möchten, dass das System sie löscht. Verwenden Sie niemals Funktionen, um Benutzer zu deaktivieren, da dies ebenfalls zu Datenverlust führen kann.
+be_usr_ad_errg=Fehler beim Versuch, den Benutzer zu erstellen.
+be_usr_ad_hpasserem=Das gewählte Passwort entspricht nicht den Empfehlungen!
+be_usr_ad_hmailex=Ein anderer Benutzer mit dieser E-Mail existiert bereits! Bitte wählen Sie eine andere E-Mail für diesen Benutzer.
+be_usr_ad_hmaok=Der Benutzer wurde erstellt!
+be_usr_ad_hpass=Passwort
+be_usr_ad_h=Aktivierungsverfahren
+be_usr_ad_rec=Aktivierung per E-Mail anfordern und Benutzer dazu auffordern, ein eigenes Passwort festzulegen
+be_usr_ad_act=Nur Aktivierung per E-Mail anfordern
+be_usr_ad_ok=Diesen Benutzer ohne jegliche Aktivierungsverfahren aktivieren
+be_404_2=Fehler 404
+be_404_1=Der angeforderte Inhalt existiert nicht!
+be_401_2=Zugriff verweigert
+be_401_1=Sie haben keinen Zugriff auf diesen Bereich!
+be_puser_noview=Dieser Benutzer existiert nicht!
+be_puser_cpass=Passwort ändern
+be_puser_cpass1=Passwort bestätigen
+be_puser_cpass2=Neues Passwort
+be_puser_cga=Gruppen ändern
+be_puser_cper=Berechtigungen ändern
+be_puser_data=Benutzer Tabellendaten
+be_puser_data1=Feldname
+be_puser_data2=Feldwert
+be_puser_chmm=Benutzer-Mail ändern
+be_puser_chmm1=Neue Mail
+be_puser_chdele=Benutzer löschen
+be_puser_chdele1=Benutzeroperationen
+be_puser_chdele2=Benutzer blockieren
+be_puser_chdele3=Benutzer entsperren
+be_puser_chdele4=Benutzer bestätigen
+be_puser_chdele5=Benutzer deaktivieren
+be_puser_chdele6=Benutzer aktivieren
+be_puser_chdele7=Dieser Benutzer ist derzeit nicht per E-Mail bestätigt!
+be_puser_chdele8=Dieser Benutzer ist derzeit blockiert!
+be_puser_chdele9=Dieser Benutzer ist derzeit deaktiviert!
+be_puser_chdele10=Dies ist das initiale Superadmin-Konto! Es hat immer Vollzugriff auf dieses Admin-Panel!
+be_puser_chdele11=Dieses Profil gehört einem anderen Benutzer als Ihnen! Seien Sie vorsichtig bei der Änderung von Einstellungen, da Änderungen Auswirkungen auf die Benutzererfahrung haben werden!
+be_puser_chdele12=Erwarte Aktivierung der neuen Mail für:
+be_puser_chdele13=Klicken Sie hier, um den Vorgang abzubrechen.
+be_puser_chdele14=Die E-Mail darf nicht leer sein!
+be_puser_chdele15=Unbekannter Fehler
+be_puser_chdele16= Die Funktion, die E-Mail zu ändern, ist derzeit für diesen Benutzer deaktiviert!
+be_puser_chdele17=Es ist nicht erlaubt, die E-Mail dieses Benutzers zu ändern.
+be_puser_chdele18=Es gibt bereits einen aktiven Benutzer mit dieser E-Mail! Doppelte E-Mails für Benutzer sind nicht möglich.
+be_puser_chdele19=Sie müssen eine bestimmte Zeit zwischen den Anfragen zur Änderung der E-Mail warten:
+be_puser_chdele20=Minuten
+be_puser_chdele21=Bitte überprüfen Sie das Postfach Ihrer neuen E-Mail, um die neue E-Mail zu aktivieren!
+be_puser_chdele22=Beim Senden der Aktivierungs-E-Mail ist ein Fehler aufgetreten!
+be_puser_chdele23=Die Anfrage zur Änderung der E-Mail wurde abgebrochen!
+be_op_usr_1=Das Passwort muss eine Zahl, einen Kleinbuchstaben und einen Großbuchstaben enthalten! Sie müssen mindestens 10 Zeichen haben.
+be_op_usr_2=Passwörter dürfen nicht leer sein!
+be_op_usr_3=Passwörter stimmen nicht überein!
+be_op_usr_4=Das Passwort wurde geändert!
+be_op_usr_5=Die Benutzergruppen wurden geändert!
+be_op_usr_6=Die Benutzerberechtigungen wurden geändert!
+be_op_usr_7=Der Benutzer wurde blockiert!
+be_op_usr_8=Die Benutzerblockierung wurde aufgehoben!
+be_op_usr_9=Der Benutzer wurde deaktiviert!
+be_op_usr_10=Der Benutzer wurde aktiviert!
+be_op_usr_11=Der Benutzer wurde bestätigt und kann sich jetzt anmelden!
+be_op_usr_12=Der Benutzer wurde gelöscht!
+
+##################################################################
+Bereichserklärungen
+##################################################################
+be_exp_blacklist=Verwalten und überwachen Sie IP-Blacklists effektiv, um eine erhöhte Sicherheit und Kontrolle über unbefugten Zugriff in diesem dedizierten Bereich zu gewährleisten.
+be_exp_benchmark=Greifen Sie auf die Benchmark-Seite zu, um Leistungsmetriken zu bewerten und zu analysieren, die fundierte Entscheidungen zur Optimierung Ihrer Website ermöglichen.
+be_exp_visits=Verfolgen und analysieren Sie Website-Besuche mit umfassenden Daten und Einblicken in diesem dedizierten Bereich, um das Nutzerverhalten zu verstehen und die Leistung der Website zu optimieren.
+be_exp_referer=Analysieren und verfolgen Sie Referrer-Quellen mit detaillierten Referrer-Protokolleinträgen in diesem dedizierten Bereich und verbessern Sie die Einblicke Ihrer Website in Besucherursprünge und -interaktionen.
+be_exp_mysql=Greifen Sie auf MySQL-Protokolldaten zu und analysieren Sie sie in diesem dedizierten Bereich, um detaillierte Einblicke in Datenbankaktivitäten zu erhalten und eine effiziente Überwachung und Verwaltung der MySQL-Operationen Ihrer Website zu gewährleisten.
+be_exp_mail=Überprüfen und verwalten Sie E-Mail-Protokolleinträge für die Kommunikationsaktivitäten Ihrer Website in diesem dedizierten Bereich.
+be_exp_logging=Erkunden Sie den umfassenden Protokollbereich, um detaillierte Aktivitäts- und Leistungsprotokolle für Ihre Website zu überprüfen und zu überwachen.
+be_exp_javascript=Überwachen und beheben Sie JavaScript-Fehler effektiv mit detaillierten Protokollen in diesem dedizierten Bereich, um ein reibungsloses und fehlerfreies Website-Erlebnis für Benutzer sicherzustellen.
+be_exp_curl=Erhalten Sie detaillierte Einblicke in Curl-Protokollaktivitäten auf Ihrer Website mit umfassenden Protokollen und Daten in diesem dedizierten Bereich, um eine effiziente Überwachung und Analyse zu ermöglichen.
+be_exp_cron=Erhalten Sie Informationen über die letzten Cronjob-Ausführungen und die detaillierte Ausgabe dessen, was gemacht wurde.
+be_exp_about=Entdecken Sie die aktuellen Website- und Backend-Versionen - Enthüllung des technologischen Kerns unserer Plattform. Erkunden Sie detaillierte Versionsinformationen sowohl für die Website als auch für das Backend und präsentieren Sie unser Engagement für die neuesten technologischen Fortschritte. Hier können Sie einige Informationen über das aktuell verwendete Website-Modul und das Kernmodul sehen!
+be_exp_constant=Optimieren Sie die Verwaltung von Konstanten mühelos. Organisieren, modifizieren und überwachen Sie Modulkonstanten der Website mühelos und gewährleisten Sie optimalen Zugriffskontrolle und effiziente Zusammenarbeit innerhalb Ihrer Plattform.
+be_exp_start=Wählen Sie einen Punkt der Navigationsleiste aus, um in einen bestimmten Administrationsbereich zu gelangen! Dies ist die Standardstartseite, auf die alle Benutzer verwiesen werden, wenn sie sich anmelden! Sie benötigen spezifische Berechtigungen, um auf die verschiedenen Bereiche zuzugreifen. Der ursprünglich erstellte Benutzer dieses Interfaces ist ein 'Superadmin'-Benutzer, der keine spezifischen Rechte benötigt, um alle Bereiche zu betreten und Operationen auszuführen. Wenn Ihnen Inhalte fehlen, setzen Sie sich mit Ihrem Hoster oder Entwickler/Manager in Verbindung, um spezifische Berechtigungen oder Funktionen anzufordern.
+be_exp_apitoken=Optimieren Sie die Verwaltung von Tokens mühelos. Organisieren, modifizieren und überwachen Sie Tokens mühelos und gewährleisten Sie optimalen Zugriffskontrolle und effiziente Zusammenarbeit innerhalb Ihrer Plattform.
+be_exp_mailtempl=Optimieren Sie die Verwaltung von E-Mail-Vorlagen mühelos. Organisieren, modifizieren und überwachen Sie E-Mail-Vorlagen mühelos und gewährleisten Sie optimalen Zugriffskontrolle und effiziente Zusammenarbeit innerhalb Ihrer Plattform.
+be_exp_usr_se=Erkunden Sie die Auflistung der Benutzersitzungen, um einen umfassenden Überblick über aktive Sitzungen zu erhalten, die eine effiziente Überwachung und Verwaltung von Benutzerinteraktionen auf Ihrer Website ermöglichen.
+be_exp_grp_l=Optimieren Sie die Gruppenverwaltung mühelos. Organisieren, modifizieren und überwachen Sie Benutzergruppen mühelos und gewährleisten Sie optimale Zugriffskontrolle und effiziente Zusammenarbeit innerhalb Ihrer Plattform.
+be_exp_usrlst=Optimieren Sie die Benutzerverwaltung mühelos. Organisieren, modifizieren und überwachen Sie Benutzer mühelos und gewährleisten Sie optimale Zugriffskontrolle und effiziente Zusammenarbeit innerhalb Ihrer Plattform.
